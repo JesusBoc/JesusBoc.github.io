@@ -115,7 +115,7 @@ nav > img:hover{
     max-width: 750px;
 }
 .about-abilities{
-    background-color: var(--about-background);
+    background: linear-gradient(45deg, rgba(0,21,205,1) 31%, rgba(61,235,255,1) 100%);
     position: relative;
     width: 100%;
 }
@@ -287,7 +287,10 @@ li > strong{
 #contact li{
     display: inline-block;
 }
-
+.future-plans{
+    position: relative;
+    width: 100%;
+}
 @media (min-width:375px) {
     nav{
         padding: 0 10px;
