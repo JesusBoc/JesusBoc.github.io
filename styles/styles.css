@@ -118,6 +118,7 @@ nav > img:hover{
     background: linear-gradient(45deg, rgba(0,21,205,1) 31%, rgba(61,235,255,1) 100%);
     position: relative;
     width: 100%;
+    box-shadow: 0px 3px 13px 3px rgba(0,0,0,0.85);
 }
 .cards-container{
     display: flex;
@@ -291,6 +292,17 @@ li > strong{
     position: relative;
     width: 100%;
 }
+.presentation-card{
+    margin: 0 auto;
+}
+.presentation-card .card-description{
+    font-size: 2rem;
+}
+.presentation-card .card-image{
+    background-image: url("../assets/foto-card.jpeg");
+    border-radius: 50%;
+    border: black 2px solid;
+}
 @media (min-width:375px) {
     nav{
         padding: 0 10px;
@@ -311,10 +323,10 @@ li > strong{
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .card:first-of-type{
+    .cards-container .card:first-of-type{
         margin-top: 0px;
     }
-    .card{
+    .cards-container .card{
         margin: 0 10px 20px;
     }
 }
